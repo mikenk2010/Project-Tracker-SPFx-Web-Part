@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "revlon-project-tracker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/revlonProjectTracker/RevlonProjectTrackerWebPart.js",
+          "manifest": "./src/webparts/revlonProjectTracker/RevlonProjectTrackerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RevlonProjectTrackerWebPartStrings": "lib/webparts/revlonProjectTracker/loc/en-us.js"
+  }
+}
+

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "revlon-project-tracker-client-side-solution",
+    "id": "c386124d-dbc6-46fb-941f-b94e17ab0196",
+    "version": "1.0.2.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Revlon Project Tracker web part"
+      },
+      "longDescription": {
+        "default": "Track and manage Revlon projects"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Revlon Project Tracker Feature",
+        "description": "The feature that activates Revlon Project Tracker web part",
+        "id": "c0415d20-2ce3-45d5-8d6d-e64e592ca255",
+        "version": "1.0.2.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/revlon-project-tracker.sppkg"
+  }
+}
+

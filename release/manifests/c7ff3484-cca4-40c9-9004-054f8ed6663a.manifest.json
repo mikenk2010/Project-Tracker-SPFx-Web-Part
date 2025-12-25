@@ -1,0 +1,71 @@
+{
+  "id": "c7ff3484-cca4-40c9-9004-054f8ed6663a",
+  "alias": "RevlonProjectTrackerWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "Revlon Project Tracker"
+      },
+      "description": {
+        "default": "Track and manage Revlon projects"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "Revlon Project Tracker"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [],
+    "entryModuleId": "revlon-project-tracker-web-part",
+    "scriptResources": {
+      "revlon-project-tracker-web-part": {
+        "type": "path",
+        "path": "revlon-project-tracker-web-part.js"
+      },
+      "react": {
+        "type": "component",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "version": "17.0.1"
+      },
+      "react-dom": {
+        "type": "component",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "version": "17.0.1"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.21.0"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.21.0"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.21.0"
+      },
+      "RevlonProjectTrackerWebPartStrings": {
+        "type": "path",
+        "path": "RevlonProjectTrackerWebPartStrings_default.js"
+      }
+    }
+  }
+}
