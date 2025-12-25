@@ -2,6 +2,12 @@
 
 A SharePoint Framework web part for tracking and managing Revlon projects.
 
+<img width="1238" height="525" alt="image" src="https://github.com/user-attachments/assets/9679606e-7a6d-4ad6-90c1-be430875b73a" />
+
+<img width="906" height="389" alt="image" src="https://github.com/user-attachments/assets/d9a8cc22-bf49-4c39-a67b-8bdfb35d1265" />
+
+<img width="1119" height="304" alt="image" src="https://github.com/user-attachments/assets/d46142b5-fb2d-4e4a-8e13-48d0a45ab578" />
+
 ## Prerequisites
 
 - Node.js 18.17.1 or higher
