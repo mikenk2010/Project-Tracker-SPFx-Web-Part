@@ -13,8 +13,6 @@ node_modules/
 dist
 lib
 temp
-*.sppkg
-*.ppkg
 
 # Coverage directory used by tools like istanbul
 coverage

@@ -1,6 +1,6 @@
-# Revlon Project Tracker - SPFx Web Part
+# Project Tracker - SPFx Web Part
 
-A SharePoint Framework web part for tracking and managing Revlon projects.
+A SharePoint Framework web part for tracking and managing projects.
 
 ## Prerequisites
 
